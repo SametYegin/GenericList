@@ -103,6 +103,8 @@ public class MyList<T>  {
             arr[i]= null;
 
         }
+        i = 0; //sınıfa ait olan static değişken.
+        //liste temizlendiği için ekleme indexini başlangıca çekmek lazım.
     }
 
     //toArray ve sublist metotları yapılacak.
